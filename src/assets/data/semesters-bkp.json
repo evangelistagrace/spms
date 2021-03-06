@@ -1,0 +1,198 @@
+{
+    "semesters": [{
+            "name": "sem1",
+            "subjects": [{
+                    "id": "CSE001",
+                    "credit_hour": 4,
+                    "name": "Programming Fundamentals"
+                },
+                {
+                    "id": "CSE002",
+                    "credit_hour": 4,
+                    "name": "Calculus"
+                },
+                {
+                    "id": "CSE003",
+                    "credit_hour": 4,
+                    "name": "Discrete Structures"
+                },
+                {
+                    "id": "CSE004",
+                    "credit_hour": 4,
+                    "name": "Professional Development"
+                }
+            ]
+        },
+        {
+            "name": "sem2",
+            "subjects": [{
+                    "id": "CSE005",
+                    "credit_hour": 4,
+                    "name": "Object-oriented Programming"
+                },
+                {
+                    "id": "CSE006",
+                    "credit_hour": 4,
+                    "name": "Database Fundamentals"
+                },
+                {
+                    "id": "CSE007",
+                    "credit_hour": 4,
+                    "name": "Computational Methods"
+                },
+                {
+                    "id": "CSE008",
+                    "credit_hour": 4,
+                    "name": "Computer Architecture and Organization"
+                }
+            ]
+        },
+        {
+            "name": "sem3",
+            "subjects": [{
+                    "id": "MPU001",
+                    "credit_hour": 3,
+                    "name": "Spanish For Beginners"
+                },
+                {
+                    "id": "MPU002",
+                    "credit_hour": 2,
+                    "name": "Badminton"
+                },
+                {
+                    "id": "CSE009",
+                    "credit_hour": 3,
+                    "name": "Research Methodology in Computer Science"
+                }
+            ]
+        },
+        {
+            "name": "sem4",
+            "subjects": [{
+                    "id": "CSE0010",
+                    "name": "Object-oriented Analysis and Design",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "CSE0011",
+                    "name": "Software Engineering Fundamentals",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "CSE0012",
+                    "name": "Computer Networks",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "CSE0013",
+                    "name": "Operating System",
+                    "credit_hour": 4
+                }
+            ]
+        },
+        {
+            "name": "sem5",
+            "subjects": [{
+                    "id": "CSE0014",
+                    "name": "Algorithm Design and Analysis",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "CSE0015",
+                    "name": "Web Application Development",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "CSE0016",
+                    "name": "Software Requirements Engineering",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "CSE0017",
+                    "name": "Software Design",
+                    "credit_hour": 4
+                }
+            ]
+        },
+        {
+            "name": "sem6",
+            "subjects": [{
+                    "id": "MPU003",
+                    "credit_hour": 3,
+                    "name": "Hubungan Etnik"
+                },
+                {
+                    "id": "MPU004",
+                    "credit_hour": 3,
+                    "name": "Tamadun Islam dan Tamadun Asia"
+                },
+                {
+                    "id": "MPU005",
+                    "credit_hour": 3,
+                    "name": "Workplace Communication"
+                }
+            ]
+        },
+        {
+            "name": "sem7",
+            "subjects": [{
+                    "id": "CSE0018",
+                    "name": "Programming Language Translation",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "CSE0019",
+                    "name": "Computer Graphics Fundamentals",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "CSE0020",
+                    "name": "Software Reliability and Quality Assurance",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "CSE0021",
+                    "name": "Introduction to Data Science",
+                    "credit_hour": 4
+                }
+            ]
+        },
+        {
+            "name": "sem8",
+            "subjects": [{
+                    "id": "CSE0022",
+                    "name": "Human Compputer Interaction",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "CSE0023",
+                    "name": "Artificial Intelligence",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "CSE0024",
+                    "name": "Software Verification and Validation",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "CSE0025",
+                    "name": "Software Evolution and Maintenance",
+                    "credit_hour": 4
+                },
+                {
+                    "id": "MPU006",
+                    "name": "Introduction to Multicultural Studies in Malaysia",
+                    "credit_hour": 3
+                }
+            ]
+        },
+        {
+            "name": "sem9",
+            "subjects": [{
+                "id": "MPU007",
+                "name": "Industrial Training",
+                "credit_hour": 3
+            }]
+        }
+    ]
+}
