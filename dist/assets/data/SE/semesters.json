@@ -1,0 +1,641 @@
+{
+    "id": "CS001",
+    "name": "Software Engineering",
+    "semesters": [{
+            "name": "sem1",
+            "total_credit_hour": 16,
+            "subjects": [{
+                    "id": "CSE001",
+                    "credit_hour": 4,
+                    "name": "Programming Fundamentals",
+                    "students": [
+                        {
+                            "id": "SE1699",
+                            "name": "Burnett Pena",
+                            "score": 4.0
+                        },
+                        {
+                            "id": "SE1243",
+                            "name": "Raymond Talley",
+                            "score": 2.33
+                        },
+                        {
+                            "id": "SE1061",
+                            "name": "Rhoda Hooper",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1795",
+                            "name": "Janice Douglas",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1922",
+                            "name": "Stuart Galloway",
+                            "score": 2.0
+                        },
+                        {
+                            "id": "SE1077",
+                            "name": "Tracey Bartlett",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1309",
+                            "name": "Lynn Nichols",
+                            "score": 3.0
+                        },
+                        {
+                            "id": "SE1660",
+                            "name": "Margo Gross",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1669",
+                            "name": "Mann Powers",
+                            "score": 2.67
+                        },
+                        {
+                            "id": "SE1276",
+                            "name": "Briana Lewis",
+                            "score": 1.0
+                        }
+                    ]
+                },
+                {
+                    "id": "CSE002",
+                    "credit_hour": 4,
+                    "name": "Calculus",
+                    "students": [
+                        {
+                            "id": "SE1699",
+                            "name": "Burnett Pena",
+                            "score": 4.0
+                        },
+                        {
+                            "id": "SE1243",
+                            "name": "Raymond Talley",
+                            "score": 1.0
+                        },
+                        {
+                            "id": "SE1061",
+                            "name": "Rhoda Hooper",
+                            "score": 3.0
+                        },
+                        {
+                            "id": "SE1795",
+                            "name": "Janice Douglas",
+                            "score": 2.0
+                        },
+                        {
+                            "id": "SE1922",
+                            "name": "Stuart Galloway",
+                            "score": 3.0
+                        },
+                        {
+                            "id": "SE1077",
+                            "name": "Tracey Bartlett",
+                            "score": 4.0
+                        },
+                        {
+                            "id": "SE1309",
+                            "name": "Lynn Nichols",
+                            "score": 3.0
+                        },
+                        {
+                            "id": "SE1660",
+                            "name": "Margo Gross",
+                            "score": 2.0
+                        },
+                        {
+                            "id": "SE1669",
+                            "name": "Mann Powers",
+                            "score": 0.1
+                        },
+                        {
+                            "id": "SE1276",
+                            "name": "Briana Lewis",
+                            "score": 1.0
+                        }
+                    ]
+                },
+                {
+                    "id": "CSE003",
+                    "credit_hour": 4,
+                    "name": "Discrete Structures",
+                    "students": [
+                        {
+                            "id": "SE1699",
+                            "name": "Burnett Pena",
+                            "score": 4.0
+                        },
+                        {
+                            "id": "SE1243",
+                            "name": "Raymond Talley",
+                            "score": 2.0
+                        },
+                        {
+                            "id": "SE1061",
+                            "name": "Rhoda Hooper",
+                            "score": 3.0
+                        },
+                        {
+                            "id": "SE1795",
+                            "name": "Janice Douglas",
+                            "score": 3.0
+                        },
+                        {
+                            "id": "SE1922",
+                            "name": "Stuart Galloway",
+                            "score": 2.0
+                        },
+                        {
+                            "id": "SE1077",
+                            "name": "Tracey Bartlett",
+                            "score": 4.0
+                        },
+                        {
+                            "id": "SE1309",
+                            "name": "Lynn Nichols",
+                            "score": 2.0
+                        },
+                        {
+                            "id": "SE1660",
+                            "name": "Margo Gross",
+                            "score": 2.0
+                        },
+                        {
+                            "id": "SE1276",
+                            "name": "Briana Lewis",
+                            "score": 2.0
+                        }
+                    ]
+                },
+                {
+                    "id": "CSE004",
+                    "credit_hour": 4,
+                    "name": "Professional Development",
+                    "students": [
+                        {
+                            "id": "SE1699",
+                            "name": "Burnett Pena",
+                            "score": 4.0
+                        },
+                        {
+                            "id": "SE1243",
+                            "name": "Raymond Talley",
+                            "score": 3.0
+                        },
+                        {
+                            "id": "SE1061",
+                            "name": "Rhoda Hooper",
+                            "score": 3.0
+                        },
+                        {
+                            "id": "SE1795",
+                            "name": "Janice Douglas",
+                            "score": 4.0
+                        },
+                        {
+                            "id": "SE1922",
+                            "name": "Stuart Galloway",
+                            "score": 3.0
+                        },
+                        {
+                            "id": "SE1077",
+                            "name": "Tracey Bartlett",
+                            "score": 4.0
+                        },
+                        {
+                            "id": "SE1309",
+                            "name": "Lynn Nichols",
+                            "score": 3.0
+                        },
+                        {
+                            "id": "SE1660",
+                            "name": "Margo Gross",
+                            "score": 2.0
+                        },
+                        {
+                            "id": "SE1669",
+                            "name": "Mann Powers",
+                            "score": 2.0
+                        },
+                        {
+                            "id": "SE1276",
+                            "name": "Briana Lewis",
+                            "score": 3.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "sem2",
+            "total_credit_hour": 16,
+            "subjects": [{
+                    "id": "CSE005",
+                    "credit_hour": 4,
+                    "name": "Object-oriented Programming",
+                    "students": [
+                        {
+                            "id": "SE1699",
+                            "name": "Burnett Pena",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1243",
+                            "name": "Raymond Talley",
+                            "score": 2.33
+                        },
+                        {
+                            "id": "SE1061",
+                            "name": "Rhoda Hooper",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1795",
+                            "name": "Janice Douglas",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1922",
+                            "name": "Stuart Galloway",
+                            "score": 1.33
+                        },
+                        {
+                            "id": "SE1077",
+                            "name": "Tracey Bartlett",
+                            "score": 3.0
+                        },
+                        {
+                            "id": "SE1309",
+                            "name": "Lynn Nichols",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1660",
+                            "name": "Margo Gross",
+                            "score": 2.67
+                        },
+                        {
+                            "id": "SE1669",
+                            "name": "Mann Powers",
+                            "score": 2.33
+                        },
+                        {
+                            "id": "SE1276",
+                            "name": "Briana Lewis",
+                            "score": 2.0
+                        }
+                    ]
+                },
+                {
+                    "id": "CSE006",
+                    "credit_hour": 4,
+                    "name": "Database Fundamentals",
+                    "students": [
+                        {
+                            "id": "SE1699",
+                            "name": "Burnett Pena",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1243",
+                            "name": "Raymond Talley",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1061",
+                            "name": "Rhoda Hooper",
+                            "score": 3.00
+                        },
+                        {
+                            "id": "SE1795",
+                            "name": "Janice Douglas",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1922",
+                            "name": "Stuart Galloway",
+                            "score": 2.33
+                        },
+                        {
+                            "id": "SE1077",
+                            "name": "Tracey Bartlett",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1309",
+                            "name": "Lynn Nichols",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1660",
+                            "name": "Margo Gross",
+                            "score": 3.00
+                        },
+                        {
+                            "id": "SE1669",
+                            "name": "Mann Powers",
+                            "score": 2.67
+                        },
+                        {
+                            "id": "SE1276",
+                            "name": "Briana Lewis",
+                            "score": 2.33
+                        }
+                    ]
+                },
+                {
+                    "id": "CSE007",
+                    "credit_hour": 4,
+                    "name": "Computational Methods",
+                    "students": [
+                        {
+                            "id": "SE1699",
+                            "name": "Burnett Pena",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1243",
+                            "name": "Raymond Talley",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1061",
+                            "name": "Rhoda Hooper",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1795",
+                            "name": "Janice Douglas",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1922",
+                            "name": "Stuart Galloway",
+                            "score": 3.00
+                        },
+                        {
+                            "id": "SE1077",
+                            "name": "Tracey Bartlett",
+                            "score": 3.00
+                        },
+                        {
+                            "id": "SE1309",
+                            "name": "Lynn Nichols",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1660",
+                            "name": "Margo Gross",
+                            "score": 2.67
+                        },
+                        {
+                            "id": "SE1669",
+                            "name": "Mann Powers",
+                            "score": 3.00
+                        },
+                        {
+                            "id": "SE1276",
+                            "name": "Briana Lewis",
+                            "score": 3.33
+                        }
+                    ]
+                },
+                {
+                    "id": "CSE008",
+                    "credit_hour": 4,
+                    "name": "Computer Architecture and Organization",
+                    "students": [
+                        {
+                            "id": "SE1699",
+                            "name": "Burnett Pena",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1243",
+                            "name": "Raymond Talley",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1061",
+                            "name": "Rhoda Hooper",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1795",
+                            "name": "Janice Douglas",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1922",
+                            "name": "Stuart Galloway",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1077",
+                            "name": "Tracey Bartlett",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1309",
+                            "name": "Lynn Nichols",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1660",
+                            "name": "Margo Gross",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1669",
+                            "name": "Mann Powers",
+                            "score": 2.67
+                        },
+                        {
+                            "id": "SE1276",
+                            "name": "Briana Lewis",
+                            "score": 3.67
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "sem3",
+            "total_credit_hour": 8,
+            "subjects": [{
+                    "id": "MPU001",
+                    "credit_hour": 3,
+                    "name": "Spanish For Beginners",
+                    "students": [
+                        {
+                            "id": "SE1699",
+                            "name": "Burnett Pena",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1243",
+                            "name": "Raymond Talley",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1061",
+                            "name": "Rhoda Hooper",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1795",
+                            "name": "Janice Douglas",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1922",
+                            "name": "Stuart Galloway",
+                            "score": 3.00
+                        },
+                        {
+                            "id": "SE1077",
+                            "name": "Tracey Bartlett",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1309",
+                            "name": "Lynn Nichols",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1660",
+                            "name": "Margo Gross",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1669",
+                            "name": "Mann Powers",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1276",
+                            "name": "Briana Lewis",
+                            "score": 3.33
+                        }
+                    ]
+                },
+                {
+                    "id": "MPU002",
+                    "credit_hour": 2,
+                    "name": "Badminton",
+                    "students": [
+                        {
+                            "id": "SE1699",
+                            "name": "Burnett Pena",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1243",
+                            "name": "Raymond Talley",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1061",
+                            "name": "Rhoda Hooper",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1795",
+                            "name": "Janice Douglas",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1922",
+                            "name": "Stuart Galloway",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1077",
+                            "name": "Tracey Bartlett",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1309",
+                            "name": "Lynn Nichols",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1660",
+                            "name": "Margo Gross",
+                            "score": 4.00                        },
+                        {
+                            "id": "SE1669",
+                            "name": "Mann Powers",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1276",
+                            "name": "Briana Lewis",
+                            "score": 3.67
+                        }
+                    ]
+                },
+                {
+                    "id": "CSE009",
+                    "credit_hour": 3,
+                    "name": "Research Methodology in Computer Science",
+                    "students": [
+                        {
+                            "id": "SE1699",
+                            "name": "Burnett Pena",
+                            "score": 4.00
+                        },
+                        {
+                            "id": "SE1243",
+                            "name": "Raymond Talley",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1061",
+                            "name": "Rhoda Hooper",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1795",
+                            "name": "Janice Douglas",
+                            "score": 2.67
+                        },
+                        {
+                            "id": "SE1922",
+                            "name": "Stuart Galloway",
+                            "score": 2.33
+                        },
+                        {
+                            "id": "SE1077",
+                            "name": "Tracey Bartlett",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1309",
+                            "name": "Lynn Nichols",
+                            "score": 3.33
+                        },
+                        {
+                            "id": "SE1660",
+                            "name": "Margo Gross",
+                            "score": 3.67
+                        },
+                        {
+                            "id": "SE1669",
+                            "name": "Mann Powers",
+                            "score": 2.67
+                        },
+                        {
+                            "id": "SE1276",
+                            "name": "Briana Lewis",
+                            "score": 3.00
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -10,7 +10,7 @@ const firebaseConfig = {
     app = firebase.initializeApp(firebaseConfig),
     db = app.database()
 
-let ref = db.ref('/courses/0/semesters/0')
+let ref = db.ref('/courses/0')
 
 // display data in student list card
 let studentListTable = document.getElementById('studentListTable'),
@@ -18,9 +18,9 @@ let studentListTable = document.getElementById('studentListTable'),
     studentArr = []
 
 ref.on('value', (snapshot) => {
-    let sem = snapshot.val()
+    let course = snapshot.val()
 
-    sem.students.forEach(stud => {
+    course.students.forEach(stud => {
         studentArr.push(stud)
     })
 })
@@ -29,11 +29,12 @@ setTimeout(() => {
     studentArr.forEach(stud => {
         let id = stud.id,
             name = stud.name,
-            cgpa = parseFloat(stud.gpa).toFixed(2),
-            status = "Active",
-            tr = document.createElement('tr')
+            cgpa = stud.cgpa,
+            tr = document.createElement('tr'),
+            status = cgpa >= 2.75 ? "Active" : "At risk",
+            spanClass = cgpa >= 2.75 ? "text text-success" : "text text-danger"
 
-        tr.innerHTML = `<td>${id}</td><td>${name}</td><td>${cgpa}</td><td><span class="text text-success">${status}</span></td>`
+        tr.innerHTML = `<td>${id}</td><td>${name}</td><td>${cgpa}</td><td><span class="${spanClass}">${status}</span></td>`
         studentListTableBody[0].appendChild(tr)
     })
 }, 3000)
