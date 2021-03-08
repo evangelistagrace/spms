@@ -26,24 +26,30 @@
           <span class="mt-1 ms-1 sidebar-text">SPMS</span>
         </a>
       </li>
-      <li class="nav-item @@if (context.page === 'overview') { active }">
+      <li class="nav-item @@if (context.page === 'dashboard') { active }">
         <a href="@@path/index.html" class="nav-link">
           <span class="sidebar-icon"><span class="fas fa-chart-pie"></span></span>
           <span class="sidebar-text">Dashboard</span>
         </a>
       </li>
-      <li class="nav-item @@if (context.page === 'transactions') { active }">
-        <a href="@@path/pages/transactions.html" class="nav-link">
-          <span class="sidebar-icon"><span class="fas fa-envelope"></span></span>
-          <span class="sidebar-text">Notifications</span>
+      <li class="nav-item @@if (context.page === 'students') { active }">
+        <a href="@@path/pages/students" class="nav-link">
+          <span class="sidebar-icon"><span class="fas fa-list-ul"></span></span>
+          <span class="sidebar-text">Students List</span>
         </a>
       </li>
-      <li class="nav-item @@if (context.page === 'settings') { active }">
+      <!-- <li class="nav-item @@if (context.page === 'settings') { active }">
         <a href="@@path/pages/settings.html" class="nav-link">
           <span class="sidebar-icon"><span class="fas fa-file"></span></span>
           <span class="sidebar-text">Reports</span>
         </a>
       </li>
+      <li class="nav-item @@if (context.page === 'transactions') { active }">
+        <a href="@@path/pages/transactions.html" class="nav-link">
+          <span class="sidebar-icon"><span class="fas fa-bell"></span></span>
+          <span class="sidebar-text">Notifications</span>
+        </a>
+      </li> -->
       <li role="separator" class="dropdown-divider mt-4 mb-3 border-black"></li>
     </ul>
   </div>

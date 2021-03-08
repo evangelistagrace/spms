@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    @@include('./_head.html', {
+        "path": "../..",
+        "title": "SPMS - CS001 Students List"
+    })
+</head>
+
+<body>
+
+        <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
+        @@if (environment === 'production') {
+            @@include('./_analytics-body.html')
+        }
+
+        @@include('./dashboard/_nav.html', {
+            "path": "../.."
+        })
+
+        @@include('./dashboard/_sidenav.html', {
+            "path": "../..",
+            "page": "students"
+        })
+    
+        <main class="content">
+
+            @@include('./dashboard/_topbar.html', {
+                "path": "../.."
+            })
+
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center py-4">
+                <div class="d-block mb-4 mb-md-0">
+                    <nav aria-label="breadcrumb" class="d-none d-md-inline-block">
+                        <ol class="breadcrumb breadcrumb-dark breadcrumb-transparent">
+                          <li class="breadcrumb-item"><a href="/index.html"><span class="fas fa-home"></span></a></li>
+                          <!-- <li class="breadcrumb-item"><a href="/index.html">Home</a></li> -->
+                          <li class="breadcrumb-item active" aria-current="page">Students List</li>
+                        </ol>
+                    </nav>
+                    <h2 class="h4">CS001 Software Engineering Students List</h2>
+                    <!-- <p class="mb-0">Your web analytics dashboard template.</p> -->
+                </div>
+                <div class="btn-toolbar mb-2 mb-md-0">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Share</button>
+                        <button type="button" class="btn btn-sm btn-outline-primary">Export</button>
+                    </div>
+                </div>
+            </div>
+            <div class="table-settings mb-4">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col col-md-6 col-lg-3 col-xl-4">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon2"><span class="fas fa-search"></span></span>
+                            <input type="text" class="form-control" id="exampleInputIconLeft" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 col-xl-1 ps-md-0 text-right">
+                        <div class="btn-group">
+                            <button class="btn btn-link text-dark dropdown-toggle dropdown-toggle-split m-0 p-1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="icon icon-sm icon-gray pt-1">
+                                    <span class="fas fa-cog"></span>
+                                </span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-xs dropdown-menu-end pb-0">
+                                <span class="small ps-3 fw-bold text-dark">Show</span>
+                                <a class="dropdown-item d-flex fw-bold" href="#">10 <span class="icon icon-small ms-auto"><span class="fas fa-check"></span></span></a>
+                                <a class="dropdown-item fw-bold" href="#">20</a>
+                                <a class="dropdown-item fw-bold" href="#">30</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-body shadow-sm table-wrapper table-responsive">
+                <table id="studentListTable" class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Student ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">CGPA</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                         
+                    </tbody>
+                </table>
+            </div>
+            @@include('./dashboard/_footer.html', {
+                "path": "../..",
+                "classes": "text-dark"
+            })
+        </main>
+
+    @@include('./_scripts.html', {
+        "path": "../.."
+    })
+
+    <script src="../../assets/js/index.js"></script>
+    
+</body>
+
+</html>

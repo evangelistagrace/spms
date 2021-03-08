@@ -13,29 +13,42 @@ const firebaseConfig = {
 let ref = db.ref('/courses/0')
 
 // display data in student list card
-let studentListTable = document.getElementById('studentListTable'),
-    studentListTableBody = studentListTable.getElementsByTagName('tbody'),
-    studentArr = []
+// let studentListTable = document.getElementById('studentListTable'),
+//     studentListTableBody = studentListTable.getElementsByTagName('tbody'),
+//     studentArr = []
 
-ref.on('value', (snapshot) => {
-    let course = snapshot.val()
+// ref.on('value', (snapshot) => {
+//     let course = snapshot.val()
 
-    course.students.forEach(stud => {
-        studentArr.push(stud)
-    })
-})
+//     course.students.forEach(stud => {
+//         studentArr.push(stud)
+//     })
+// })
 
-setTimeout(() => {
-    studentArr.forEach(stud => {
-        let id = stud.id,
-            name = stud.name,
-            cgpa = stud.cgpa,
-            tr = document.createElement('tr'),
-            status = cgpa >= 2.75 ? "Active" : "At risk",
-            spanClass = cgpa >= 2.75 ? "text text-success" : "text text-danger"
+// setTimeout(() => {
+//     studentArr.forEach(stud => {
+//         let id = stud.id,
+//             name = stud.name,
+//             cgpa = stud.cgpa,
+//             tr = document.createElement('tr'),
+//             status = cgpa >= 2.75 ? "Active" : "At risk",
+//             spanClass = cgpa >= 2.75 ? "text text-success" : "text text-danger",
+//             link = `/pages/student?id=${id}`
 
-        tr.innerHTML = `<td>${id}</td><td>${name}</td><td>${cgpa}</td><td><span class="${spanClass}">${status}</span></td>`
-        studentListTableBody[0].appendChild(tr)
-    })
-}, 3000)
+//         tr.innerHTML = `<td>${id}</td><td><a href="${link}">${name}</a></td><td>${cgpa}</td><td><span class="${spanClass}">${status}</span></td>`
+//         studentListTableBody[0].appendChild(tr)
+//     })
+// }, 3000)
 
+function getParams (url) {
+	var params = {};
+	var parser = document.createElement('a');
+	parser.href = url;
+	var query = parser.search.substring(1);
+	var vars = query.split('&');
+	for (var i = 0; i < vars.length; i++) {
+		var pair = vars[i].split('=');
+		params[pair[0]] = decodeURIComponent(pair[1]);
+	}
+	return params;
+};

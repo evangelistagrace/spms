@@ -4,7 +4,7 @@
 <head> 
     @@include('./_head.html', {
         "path": "../..",
-        "title": "Student Progress Monitoring System"
+        "title": "SPMS - Welcome"
     })
 </head>
 
@@ -19,7 +19,7 @@
 
         @@include('./dashboard/_sidenav.html', {
             "path": "../..",
-            "page": "overview",
+            "page": "dashboard",
             "page_group": "dashboard"
         })
     
@@ -54,7 +54,7 @@
                                         <h2 class="h5">Students List</h2>
                                         </div>
                                         <div class="col text-right">
-                                            <a href="#" class="btn btn-sm btn-secondary">See more</a>
+                                            <a href="./pages/students" class="btn btn-sm btn-secondary">See more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -101,6 +101,8 @@
     @@include('./_scripts.html', {
         "path": "../.."
     })
+
+    <script src="../../assets/js/index.js"></script>
     
 </body>
 

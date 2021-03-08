@@ -45,6 +45,7 @@ ref.on("value", function(snapshot) {
                         sem_stud.total_credits = 0
                         sem_stud.gpa = 0.0
                         // to-do: add sem_stud.subjects []
+                        sem_stud.subjects = []
                         sem_students.push(sem_stud)
                     }
                 })
@@ -57,6 +58,7 @@ ref.on("value", function(snapshot) {
                         stud.total_credits += sub.credit_hour 
                         stud.points += sub.students[index]["score"] * sub.credit_hour //cumulative grade point
                         // to-do: add stud.subjects [{subject_name, subject_score}]
+                        stud.subjects.push({id: sub.id, name: sub.name, score: sub.students[index]["score"]})
                     }
                 })
             })
@@ -86,6 +88,8 @@ ref.on("value", function(snapshot) {
                     course_stud.total_points = 0
                     course_stud.cgpa = 0.0
                     // to-do: add course_stud.gpas = []
+                    course_stud.gpas = []
+                    course_stud.subjects = []
                     course_students.push(course_stud)
                 }
             })
@@ -97,6 +101,8 @@ ref.on("value", function(snapshot) {
                     stud.total_points += sem.students[index]["points"]
                     stud.total_credits += sem.students[index]["total_credits"]
                      // to-do: add stud.gpas = [gpa_1, gpa_2,..]
+                    stud.gpas.push(sem.students[index]["gpa"])
+                    stud.subjects.push(sem.students[index]["subjects"])
                 }
             })
         })
