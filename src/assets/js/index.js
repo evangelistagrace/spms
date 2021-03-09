@@ -20,7 +20,8 @@ let studentListTable = document.getElementById('studentListTable'),
     notifications = [],
     semesters = [],
     students = [],
-    courseNotifications = []
+    courseNotifications = [],
+    averageGPAS = []
 
 // init students and semesters
 ref.once('value').then(snapshot => {
@@ -61,7 +62,9 @@ ref.once('value').then(snapshot => {
         //push notifcations to db
         db.ref(`/courses/0/notifications`).set(notifications)
     }
-    
+
+    // calculate average GPA by semester and display in chart
+    genChart()
 })
 
 
@@ -103,6 +106,46 @@ function checkCH(stud) {
         notification.viewLink = `/pages/student?id=${stud.id}`
         notifications.push(notification)
     }
+}
+
+function genChart() {
+    // calculate average gpa by semester
+    for(let i=0;i<semesters.length;i++) {
+        let semGPA = 0.0
+
+        students.forEach((stud, index) => {
+            let gpa = parseFloat(stud.gpas[i])
+            
+            semGPA += gpa
+        })
+
+        semGPA = parseFloat(semGPA/students.length).toFixed(2)
+        averageGPAS.push(semGPA)
+    }
+
+    // set chart
+	var ctx = document.getElementById('gpaChart').getContext('2d');
+	var chart = new Chart(ctx, {
+		// The type of chart we want to create
+		type: 'line',
+
+		// The data for our dataset
+		data: {
+			labels: ['Semester 1', 'Semester 2', 'Semester 3'],
+			datasets: [{
+				borderColor: 'rgb(248, 189, 122)',
+				data: averageGPAS,
+				borderWidth: 5
+			}],
+		},
+
+		// Configuration options go here
+		options: {
+			legend: {
+				display: false
+			}
+		}
+	});
 }
 
 function isEmpty(obj) {

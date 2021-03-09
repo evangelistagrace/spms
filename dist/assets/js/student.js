@@ -30,10 +30,12 @@ ref.once('value').then(snapshot => {
 	// display student's details
 	let studentName = document.getElementById('studentName'),
 		studentId = document.getElementById('studentId'),
+		studentId2 = document.getElementById('studentId2'),
 		studentCgpa = document.getElementById('studentCgpa')
 
 	studentName.innerHTML = student.name
 	studentId.innerHTML = student.id
+	studentId2.innerHTML = student.id
 	studentCgpa.innerHTML = student.cgpa
 
 	// display student's subjects and grades
@@ -110,7 +112,7 @@ ref.once('value').then(snapshot => {
 	})
 
 	// set chart
-	var ctx = document.getElementById('myChart').getContext('2d');
+	var ctx = document.getElementById('gpaChart').getContext('2d');
 	var chart = new Chart(ctx, {
 		// The type of chart we want to create
 		type: 'line',
