@@ -4,13 +4,11 @@
 <head> 
     @@include('./_head.html', {
         "path": "../..",
-        "title": "SPMS - Profile"
+        "title": "SPMS - Students"
     })
 </head>
 
 <body>
-
-        <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
         @@if (environment === 'production') {
             @@include('./_analytics-body.html')
         }
@@ -18,7 +16,7 @@
         @@include('./dashboard/_nav.html', {
             "path": "../.."
         })
-        
+
         @@include('./dashboard/_sidenav.html', {
             "path": "../..",
             "page": "students"
