@@ -109,7 +109,7 @@
                         {
                             "id": "SE1669",
                             "name": "Mann Powers",
-                            "score": 0.1
+                            "score": 1.0
                         },
                         {
                             "id": "SE1276",
@@ -218,7 +218,7 @@
                         {
                             "id": "SE1669",
                             "name": "Mann Powers",
-                            "score": 2.0
+                            "score": 1.0
                         },
                         {
                             "id": "SE1276",
@@ -280,7 +280,7 @@
                         {
                             "id": "SE1669",
                             "name": "Mann Powers",
-                            "score": 2.33
+                            "score": 1.33
                         },
                         {
                             "id": "SE1276",
@@ -337,7 +337,7 @@
                         {
                             "id": "SE1669",
                             "name": "Mann Powers",
-                            "score": 2.67
+                            "score": 1.67
                         },
                         {
                             "id": "SE1276",
@@ -394,7 +394,7 @@
                         {
                             "id": "SE1669",
                             "name": "Mann Powers",
-                            "score": 3.00
+                            "score": 1.00
                         },
                         {
                             "id": "SE1276",
@@ -451,7 +451,7 @@
                         {
                             "id": "SE1669",
                             "name": "Mann Powers",
-                            "score": 2.67
+                            "score": 2.00
                         },
                         {
                             "id": "SE1276",
@@ -513,7 +513,7 @@
                         {
                             "id": "SE1669",
                             "name": "Mann Powers",
-                            "score": 4.00
+                            "score": 1.33
                         },
                         {
                             "id": "SE1276",
@@ -565,10 +565,6 @@
                         {
                             "id": "SE1660",
                             "name": "Margo Gross",
-                            "score": 4.00                        },
-                        {
-                            "id": "SE1669",
-                            "name": "Mann Powers",
                             "score": 4.00
                         },
                         {
@@ -626,7 +622,7 @@
                         {
                             "id": "SE1669",
                             "name": "Mann Powers",
-                            "score": 2.67
+                            "score": 1.67
                         },
                         {
                             "id": "SE1276",

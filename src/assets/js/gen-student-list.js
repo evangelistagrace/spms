@@ -44,7 +44,6 @@ ref.on("value", function(snapshot) {
                         sem_stud.points = 0.0
                         sem_stud.total_credits = 0
                         sem_stud.gpa = 0.0
-                        // to-do: add sem_stud.subjects []
                         sem_stud.subjects = []
                         sem_students.push(sem_stud)
                     }
@@ -90,6 +89,7 @@ ref.on("value", function(snapshot) {
                     // to-do: add course_stud.gpas = []
                     course_stud.gpas = []
                     course_stud.subjects = []
+                    course_stud.credits = []
                     course_students.push(course_stud)
                 }
             })
@@ -100,9 +100,9 @@ ref.on("value", function(snapshot) {
                 if (index > -1) {
                     stud.total_points += sem.students[index]["points"]
                     stud.total_credits += sem.students[index]["total_credits"]
-                     // to-do: add stud.gpas = [gpa_1, gpa_2,..]
                     stud.gpas.push(sem.students[index]["gpa"])
                     stud.subjects.push(sem.students[index]["subjects"])
+                    stud.credits.push(sem.students[index]["total_credits"])
                 }
             })
         })

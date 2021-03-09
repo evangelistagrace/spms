@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    @@include('./_head.html', {
+        "path": "../..",
+        "title": "SPMS - Notifications"
+    })
+</head>
+
+<body>
+        @@if (environment === 'production') {
+            @@include('./_analytics-body.html')
+        }
+
+        @@include('./dashboard/_nav.html', {
+            "path": "../.."
+        })
+
+        @@include('./dashboard/_sidenav.html', {
+            "path": "../..",
+            "page": "notifications"
+        })
+    
+        <main class="content">
+
+            @@include('./dashboard/_topbar.html', {
+                "path": "../.."
+            })
+            <div class="row">
+                <div id="notificationsContainer" class="col-12 col-xl-12 mt-4 mb-4">
+                    <!-- warning noti -->
+                    <!-- <div class="row justify-content-md-center">
+                        <div class="col-8 mb-2">
+                            <div class="card border-light shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="h4 text text-warning"><span class="fas fa-exclamation-triangle"></span> Warning alert</h4>
+                                    <span style="line-height:3">hello</span>
+                                    <div class="" style="float:right">
+                                        <button class="btn btn-dark" type="button">View</button>
+                                        <button class="btn btn-secondary" type="button">Dismiss</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- danger noti -->
+                    <!-- <div class="row justify-content-md-center">
+                        <div class="col-8 mb-2">
+                            <div class="card border-light shadow-sm">
+                                <div class="card-body align-content-md-center">
+                                    <h4 class="h4 text text-danger"><span class="fas fa-exclamation-circle"></span> Danger alert</h4>
+                                    <span style="line-height:3">hello</span>
+                                    <div class="" style="float:right">
+                                        <a class="btn btn-dark" type="button" href="/pages/student">View</a>
+                                        <button class="btn btn-secondary" type="button">Dismiss</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            @@include('./dashboard/_footer.html', {
+                "path": "../..",
+                "classes": "text-dark"
+            })
+        </main>
+
+    @@include('./_scripts.html', {
+        "path": "../.."
+    })
+
+    <script src="../../assets/js/notifications.js"></script>
+    
+</body>
+
+</html>
